@@ -1,5 +1,20 @@
-$mybackground: pink;
 
-body{
-    background: $mybackground;
-}
+/* GLOBAL RESETS */
+* { box-sizing: border-box; }
+
+// VARIABLES
+$color-text-body: rgba(0,0,0,.8);
+$color-text-headings: rgba(0,0,0,1);
+$color-accent: rgba(255,0,0,1);
+$color-accent-dark: rgba(158, 0, 0);
+
+$color-lightgrey:  rgba(0,0,0,.5);
+
+$font-family-sans: 'Source Sans Pro', Helvetica, Arial, Helvetica, sans-serif;
+$font-family-serif: Georgia, 'Time New Roman' , Times, Serif;
+
+// IMPORTS
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/buttons";
+
