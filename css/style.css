@@ -37,7 +37,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0.5em 0;
+  margin: 0 0 0.5em 0;
 }
 
 /* TRADITIONAL TYPOGRAPHIC SCALE */
@@ -98,4 +98,40 @@ hr {
 }
 .button:hover {
   background-color: #9e0000;
+}
+
+/* RESPONSIVE IMAGES */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* CONTAINER */
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* MEDIA QUERIES */
+/* RESPONSIVE TYPOGRAPHY */
+body {
+  font-size: 87.5%;
+  background: red;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 100%;
+    background: yellow;
+  }
+}
+@media (min-width: 1250px) {
+  body {
+    font-size: 112.5%;
+    background: green;
+  }
 }
