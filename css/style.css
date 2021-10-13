@@ -11,6 +11,13 @@ TABLE OF CONTENTS
 # GLOBAL RESETS
 # BASE TYPOGRAPHY
 # BUTTONS
+# MEDIA
+   # RESPONSIVE IMAGES
+# LAYOUT
+   # CONTAINER
+   # MEDIA QUERIES 
+   # SEMATIC GRID SYSTEM
+
 */
 /* BASE TEXT COLOR */
 body {
@@ -106,14 +113,16 @@ img {
   height: auto;
 }
 
-/* CONTAINER */
+/* RESET BODY */
 body {
   margin: 0;
 }
 
+/* CONTAINER */
 .container {
   margin: 0 auto;
   max-width: 1000px;
+  padding: 0 1em;
 }
 
 /* MEDIA QUERIES */

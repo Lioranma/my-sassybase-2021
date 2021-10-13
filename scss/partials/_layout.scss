@@ -1,11 +1,13 @@
-/* CONTAINER */
+/* RESET BODY */
 body {
     margin: 0;
 }
 
+/* CONTAINER */ 
 .container {
     margin:0 auto;
     max-width: 1000px;
+    padding: 0 1em; 
 }
 
 /* MEDIA QUERIES */  
